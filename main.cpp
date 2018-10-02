@@ -28,7 +28,7 @@ int main(){
 
 
 /***************************************************************************
-							displayMenu()
+				displayMenu()
 	This is a menu function that will display the menu before the game
 	starts. It allows the user to choose between two options.
 	1) play
@@ -45,7 +45,7 @@ void displayMenu(){
 
 
 /***************************************************************************
-							actOnChoice(int)
+				actOnChoice(int)
 	This function has one int parameter. The user input to the menu is 
 	passed as an argument to this function. If the user chooses 1, then
 	the game is played. Else the game is exited.
