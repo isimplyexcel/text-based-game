@@ -1,2 +1,2 @@
 # text-based-game
-A text-based adventure game set on a train
+"Train" is a text-based, one-player adventure game written in C++ for the command line.
