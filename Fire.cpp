@@ -22,7 +22,7 @@ Fire::Fire(std::string name, std::string action, std::string item):Space(name, a
 
 
 /************************************************************************************************
-								void Fire::action()
+					void Fire::action()
 	This function will describe the current car and what action the player can take.
 	This function overrides the base class pure virtual function. 
 
@@ -59,7 +59,7 @@ void Fire::action(std::vector<std::string>& container){
 
 
 /******************************************************************************************************
-										void Fire::findItem(std::vector<std::string>& container)
+			void Fire::findItem(std::vector<std::string>& container)
 	This is the function tells the user that an item has been found and gives them 2 choices to
 	pickup the item:
 
