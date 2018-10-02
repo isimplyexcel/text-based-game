@@ -28,8 +28,8 @@ Space::Space(std::string m_name, std::string m_action, std::string m_item){
 
 
 /***********************************************************************************************
-								void Space::setLeftRight()
-			This function sets the left and right space pointers of the cars. 
+				void Space::setLeftRight()
+		This function sets the left and right space pointers of the cars. 
 ************************************************************************************************/
 void Space::setLeftRight(Space* leftPtr, Space* rightPtr){
 	this->left = leftPtr;
@@ -39,8 +39,8 @@ void Space::setLeftRight(Space* leftPtr, Space* rightPtr){
 
 
 /***********************************************************************************************
-								Space* Space::getLeft()
-						This function returns the left pointer
+				Space* Space::getLeft()
+			This function returns the left pointer
 ************************************************************************************************/
 Space* Space::getLeft() const{
 	return left;
@@ -48,8 +48,8 @@ Space* Space::getLeft() const{
 
 
 /***********************************************************************************************
-								Space* Space::getRight()
-						This function returns the right pointer
+				Space* Space::getRight()
+			This function returns the right pointer
 ************************************************************************************************/
 Space* Space::getRight() const{
 	return right;
@@ -58,8 +58,8 @@ Space* Space::getRight() const{
 
 
 /***********************************************************************************************
-								std::string Space::getCarName()
-						This function returns the name of the Car
+				std::string Space::getCarName()
+			This function returns the name of the Car
 ************************************************************************************************/
 std::string Space::getCarName() const{
 	return carName;
@@ -68,8 +68,8 @@ std::string Space::getCarName() const{
 
 
 /***********************************************************************************************
-								std::string Space::getActionName()
-						This function returns the name of the action
+				std::string Space::getActionName()
+			This function returns the name of the action
 ************************************************************************************************/
 std::string Space::getActionName() const{
 	return actionName;
@@ -78,8 +78,8 @@ std::string Space::getActionName() const{
 
 
 /***********************************************************************************************
-								std::string Space::getItemName()
-						This function returns the name of the item
+				std::string Space::getItemName()
+			This function returns the name of the item
 ************************************************************************************************/
 std::string Space::getItemName() const{
 	return itemName;
