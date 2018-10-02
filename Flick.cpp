@@ -21,7 +21,7 @@ Flick::Flick(std::string name, std::string action, std::string item):Space(name,
 
 
 /************************************************************************************************
-								void Flick::action()
+					void Flick::action()
 	This function will describe the current car and what action the player can take.
 	This function overrides the base class pure virtual function. In this function the player 
 	will turn on the light since the car is dark.
@@ -59,7 +59,7 @@ void Flick::action(std::vector<std::string>& container){
 
 
 /******************************************************************************************************
-						void Flick::findItem(std::vector<std::string>& container)
+			void Flick::findItem(std::vector<std::string>& container)
 	This is the function tells the user that an item has been found and gives them 2 choices to
 	pickup the item:
 
