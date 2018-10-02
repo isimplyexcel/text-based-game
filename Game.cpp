@@ -17,7 +17,7 @@
 #include <iostream>
 
 /*********************************************************************************************************************
-										Game::Game()
+						Game::Game()
 	This is the Game constructor. There are 6 space objects that are initialized. The constructor also links
 	all the trains by calling the setLeftRight method. It also sets the location of the player to the caboose
 	car. 
@@ -50,8 +50,8 @@ Game::Game(){
 
 
 /*****************************************************************************************************************
-										void Game::displayGoal()
-	This function displays the goal of the game. It also displays tips on items.
+					void Game::displayGoal()
+		This function displays the goal of the game. It also displays tips on items.
 ******************************************************************************************************************/
 void Game::displayGoal(){
 	std::cout << "\n\n\t\t\t\tWelcome\n" << std::endl;
@@ -71,8 +71,8 @@ void Game::displayGoal(){
 
 
 /*******************************************************************************************************************
- 											void Game::displaySteps()
-						This function displays steps taken and how many steps are remaining.
+ 					void Game::displaySteps()
+			This function displays steps taken and how many steps are remaining.
  *******************************************************************************************************************/
 void Game::displaySteps(){
 	//	display steps taken and steps remaining
@@ -85,8 +85,8 @@ void Game::displaySteps(){
 
 
 /*********************************************************************************************************************
-									void Game::inGameMenu()
-This function displays the in game menu. The in game menu gives the user 3 options
+						void Game::inGameMenu()
+			This function displays the in game menu. The in game menu gives the user 3 options
 **********************************************************************************************************************/
 void Game::inGameMenu(){
 	//	3 options
@@ -149,9 +149,9 @@ void Game::inGameMenu(){
 
 
 /*************************************************************************************************************
-									void Game::printContainer()
-			This function prints out the contents of the container. If the container is empty,
-			it prints out "you do not have any items in your backpack".
+					void Game::printContainer()
+	This function prints out the contents of the container. If the container is empty,
+	it prints out "you do not have any items in your backpack".
 ***************************************************************************************************************/
 void Game::printContainer(){
 
@@ -173,7 +173,7 @@ void Game::printContainer(){
 
 
 /*************************************************************************************************************
-									bool Game::checkHero()
+						bool Game::checkHero()
 	This function checks to see if you have the "a hero badge" in your container. If you do then the function
 	returns true. If you do not the function returns false.
 
@@ -200,7 +200,7 @@ bool Game::checkHero(){
 
 
 /*****************************************************************************************************************
-												void Game::play()
+						void Game::play()
 	This function combines the game functions in order to handle the flow of the game.
 
 	The function increments the steps after the player switches spaces. It checks to see if the hero badge
@@ -252,7 +252,7 @@ void Game::play(){
 
 
 /********************************************************************************************************************
-													Game::~Game()
+						Game::~Game()
 	This is the destructor. It frees memory to ensure no memory leaks are present in the program.
 *********************************************************************************************************************/
 Game::~Game(){
