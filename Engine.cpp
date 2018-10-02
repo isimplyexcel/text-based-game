@@ -57,7 +57,7 @@ void Engine::action(std::vector<std::string>& container){
 
 
 /******************************************************************************************************
-						void Engine::findItem(std::vector<std::string>& container)
+			void Engine::findItem(std::vector<std::string>& container)
 	This is the function tells the user that an item has been found and gives them 2 choices to
 	pickup the item:
 
@@ -110,11 +110,11 @@ void Engine::action(std::vector<std::string>& container){
 
 
 /*************************************************************************************************************
-									bool Engine::checkKey()
-			This function checks the backpack to see if you have the "emergency brake key". If the 
-			backpack contains the key, then it returns true. Else it returns false.
+					bool Engine::checkKey()
+	This function checks the backpack to see if you have the "emergency brake key". If the 
+	backpack contains the key, then it returns true. Else it returns false.
 
-			referenced geeks for geeks https://www.geeksforgeeks.org/stdfind-in-c/
+	referenced geeks for geeks https://www.geeksforgeeks.org/stdfind-in-c/
 ***************************************************************************************************************/
 bool Engine::checkKey(std::vector<std::string>& container, std::string search){
 	//	iterator used to store the position of searched element
