@@ -3,6 +3,8 @@
 
 The player can traverse the train and pick up items, one of which is required to win the game.
 
+![screenshot](https://raw.githubusercontent.com/isimplyexcel/text-based-game/master/train.PNG "Gameplay")
+
 ## Concepts
 I finished this project after a two-part Introduction to Computer Science course that covered C++ and object-oriented programming.
 I wanted to build something that would allow me to demonstrate understanding of the following concepts:
