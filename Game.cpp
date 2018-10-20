@@ -181,7 +181,7 @@ void Game::printContainer(){
 	that represents the container.
 ***************************************************************************************************************/
 bool Game::checkHero(){
-		//	iterator used to store the position of searched element
+	//	iterator used to store the position of searched element
 	std::vector<std::string>::iterator it;
 
 	std::string search = "a hero badge";
