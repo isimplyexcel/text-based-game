@@ -23,7 +23,7 @@ Engine::Engine(std::string name, std::string action, std::string item):Space(nam
 
 
 /************************************************************************************************
-								void Engine::action()
+					void Engine::action()
 	This function will describe the current car and what action the player can take.
 	This function overrides the base class pure virtual function. In this function the player 
 	will turn on the light since the car is dark.
